@@ -14,18 +14,18 @@ namespace MinhaDemoMvc.Controllers
 
         public IActionResult Index()
         {
-            var filme = new Filme()
-            {
-                Titulo = "Oi",
-                DataLancamento = DateTime.Now,
-                Genero = "",
-                Avaliacao = 10,
-                Valor = 20000
-            };
+            //var filme = new Filme()
+            //{
+            //    Titulo = "Oi",
+            //    DataLancamento = DateTime.Now,
+            //    Genero = "",
+            //    Avaliacao = 10,
+            //    Valor = 20000
+            //};
 
 
-            return RedirectToAction("Privacy", filme);
-            //return View();
+            //return RedirectToAction("Privacy", filme);
+            return View();
         }
 
         public IActionResult Privacy(Filme filme)
