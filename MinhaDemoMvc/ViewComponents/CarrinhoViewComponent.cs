@@ -16,7 +16,7 @@ namespace MinhaDemoMvc.ViewComponents
             ItensCarrinhos = 3;
         }
 
-        public async Task<IViewComponentResult> InvokeAsyc()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
             return View(ItensCarrinhos);
         }
