@@ -1,1 +1,2 @@
-MinhaDemoMvc/Views/Home/* linguist-vendored
+index.html linguist-detectable=false
+MinhaDemoMvc/Views/Shared/*.cshtml linguist-detectable=false
